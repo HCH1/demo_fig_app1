@@ -43,6 +43,12 @@ tags$img(src='myImage.png', align = "left"),
 tags$br(),
 tags$br(),
 
+tags$video(src = "1005v2.mov", type = "video/mov", autoplay = NA, controls = NA, width = 700, height = 500),
+## <video src="video.mp4" type="video/mp4" autoplay controls></video>
+
+tags$br(),
+tags$br(),
+
             downloadButton("downloadData", "Download")
     ),
     
